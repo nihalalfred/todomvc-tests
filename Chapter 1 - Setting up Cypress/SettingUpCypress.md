@@ -1,6 +1,6 @@
 # Chapter 1 - Setting up Cypress
 
-> TODO: Add image1 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/SettingUpCypress1.png" height="600" width="1000" >
 
 ## ****Installation Prerequisites****
 
@@ -38,7 +38,8 @@ Open a terminal in VS Code and run the following command
     
 This will create a package.json which initialises the folder to be ready for `npm commands`.
 
-> TODO: Add image2 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/SettingUpCypress2.png" height="600" width="1000" >
+
 
 ## Installing Cypress
 
@@ -66,15 +67,15 @@ Use the following command in the terminal to open cypress
     
 Once you run this command it should open the UI, and will  create a folder structure for us as below:
 
-> TODO: Add image3 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/SettingUpCypress3.png" height="600" width="1000" >
 
 It will also create a folder called “cypress” with lots of subfolders inside it.
 
-> TODO: Add image4 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/SettingUpCypress4.png" height="600" width="1000" >
 
 The most important folder is “integration” — this is where we would be writing out tests.
 
-> TODO: Add image5 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/SettingUpCypress5.png" height="600" width="1000" >
 
 Please Note: We won't be needing the examples folder as we would be writing our own tests so we are going to delete this folder so it won't distract us.
 
