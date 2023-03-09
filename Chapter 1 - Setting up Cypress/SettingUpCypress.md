@@ -76,5 +76,5 @@ The most important folder is “integration” — this is where we would be wri
 
 > TODO: Add image5 here
 
-Note: We won't be needing the examples folder as we would be writing our own tests so we are going to delete this folder so it won't distract us.
+Please Note: We won't be needing the examples folder as we would be writing our own tests so we are going to delete this folder so it won't distract us.
 
