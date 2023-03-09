@@ -4,7 +4,8 @@ Note: All tests you want to write should be created under the integration folder
 
 For our 1st test we are going to a new file under this folder and going to name it `todomvc.spec.js`
 
-> TODO: Add image1 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest1.png" height="600" width="1000" >
+
 
 ## Application Under Test (AUT)
 
@@ -12,21 +13,21 @@ Before we write tests lets visit the link and have a look at our application und
 
 If you look at the application you will notice that this is a simple app to add your TODOs
 
-> TODO: Add image2 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest2.png" height="600" width="1000" >
 
 Some other things that you can also do on this application apart from adding your TODOs :
 
 1. Mark TODOs as done
 
-> TODO: Add image3 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest3.png" height="600" width="1000" >
 
 2. Use filters : All, Active, Completed
 
-> TODO: Add image4 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest4.png" height="600" width="1000" >
 
 3. You can also delete a TODO
 
-> TODO: Add image5 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest5.png" height="600" width="1000" >
 
 ## Autocomplete Support in VS Code
 
@@ -48,8 +49,7 @@ Some other things that you can also do on this application apart from adding you
 
 ## it ( ) Function
 
-> TODO: Add image6 here
-
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest6.png" height="600" width="1000" >
 
 - The it( ) function is place within which you write the code of your tests.
 
@@ -64,7 +64,7 @@ Some other things that you can also do on this application apart from adding you
         })
         ```
 
-> TODO: Add image7 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest7.png" height="600" width="1000" >
 
 **Note About Javascript Syntax**
 
@@ -95,7 +95,7 @@ it('should navigate to TodoMVC App', () => {
 })
 ```
 
-> TODO: Add image8 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest8.png" height="600" width="1000" >
 
 Once you have written this test you can run it using the terminal command
 
@@ -105,13 +105,13 @@ npx cypress open
 
 ## Test runs and passes
 
-> TODO: Add image9 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest9.png" height="600" width="1000" >
 
 ## Let's fail the test and see what it does
 
 We are going to just change the url to something that is incorrect and see what it reports
 
-> TODO: Add image10 here
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/WritingTheFirstTest10.png" height="600" width="1000" >
 
 Notice it gives you a nice error log which is the best part of using cypress.
 
