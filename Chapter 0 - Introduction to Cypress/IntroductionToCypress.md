@@ -14,7 +14,7 @@ It’s not better, because it’s very difficult to be better than Selenium (or 
 
 > ### **Test your code, not your patience**
 
-_TODO: Add Image here_
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/TestYourCodeNotYourPatience.png" height="600" width="1000" >
 
 ### Why is it different?
 
