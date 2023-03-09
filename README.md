@@ -10,3 +10,6 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 1
 - [Setting Up Cypress](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%201%20-%20Setting%20up%20Cypress/SettingUpCypress.md)
+
+### Chapter 2
+- [Writing Your First Test](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%202%20-%20Writing%20the%20first%20test/WritingTheFirstTest.md)
