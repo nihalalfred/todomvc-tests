@@ -9,8 +9,7 @@ If you don’t want your tests to run every time you make any changes to your fi
     "watchForFileChanges": false
 }
 ```
-
-TODO: Insert Image1
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/AccessingElementsAndInteractingWithThem1.png" height="600" width="1000" >
 
 ```
 Note: With this change now until you hit the rerun button your test will not run automatically with any file changes
@@ -30,7 +29,7 @@ Below are the list of things we are going to do part of adding some more tests t
 
 If you want to find out a selector for an element you can use the interactive element locator to get by interacting with the little widget (see attached screenshot)
 
-TODO: Insert Image2
+<img src= "https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/AccessingElementsAndInteractingWithThem2.png" height="600" width="1000" >
 
 When we click on it, we get not only the selector, but also the command in Cypress that is used to “get” the element.
 
@@ -61,7 +60,7 @@ The `?delay-<element-selector=<delay-time>` can be used if you want a specific e
 - if you put the delay directly to the element which is greater than the default wait the test will fail because
 - Here in the below example we are waiting for 5 seconds for it to appear but the default wait is for 4 mins so it fails after that time.
 
-TODO: Insert Image 3
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/AccessingElementsAndInteractingWithThem3.png" height="600" width="1000" >
 
 ## Timeout as an option parameter
 
