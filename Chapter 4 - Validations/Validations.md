@@ -1,3 +1,22 @@
+# Validations
+
+Cypress has an extensive list of validations, conditions, which go beyond checking whether something has a text or is checked, and can even check conditions on the DOM or on the CSS properties of an element.
+
+Using these validations, we've created our first complete test, which includes a set of actions and a set of validations that validate those actions.
+
+All validations use `should` and we pass arguments into it
+
+• The first argument to the `should` is what to check. And in this case, it’s “have.text”
+
+• The second argument is the value of what to test. We call this the condition, which in this case is the text to check
+
+## Below is are a list of example tests using different validations:
+- have.text
+- not.be.checked
+- be.checked
+- have.css
+
+```jsx
 /// <reference types= "cypress" />
 
 it('should be able to add a new todo to the list', () => {
@@ -60,3 +79,5 @@ it('should be able to clear all completed todo lists', () => {
     cy.get('.todo-list').should('not.have.descendants', 'li')
 
 })
+```
+TODO: Insert Image1
