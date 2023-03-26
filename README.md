@@ -13,3 +13,8 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 2
 - [Writing Your First Test](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%202%20-%20Writing%20the%20first%20test/WritingTheFirstTest.md)
+
+### Chapter 3
+- [Accessing Elements And Interacting With Them](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%203%20-%20Accessing%20Elements%20and%20Interacting%20With%20Them/AccessingElementsAndInteractingWithThem.md)
+
+
