@@ -80,4 +80,4 @@ it('should be able to clear all completed todo lists', () => {
 
 })
 ```
-TODO: Insert Image1
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/Validations.png" height="600" width="1000" >
