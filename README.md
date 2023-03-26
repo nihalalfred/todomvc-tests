@@ -17,4 +17,5 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 ### Chapter 3
 - [Accessing Elements And Interacting With Them](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%203%20-%20Accessing%20Elements%20and%20Interacting%20With%20Them/AccessingElementsAndInteractingWithThem.md)
 
-
+### Chapter 4
+- [Validations](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%204%20-%20Validations/Validations.md)
