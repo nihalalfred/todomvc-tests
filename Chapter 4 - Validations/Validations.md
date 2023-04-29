@@ -10,11 +10,12 @@ All validations use `should` and we pass arguments into it
 
 • The second argument is the value of what to test. We call this the condition, which in this case is the text to check
 
-## Below is are a list of example tests using different validations:
+## Below is are a list of validations used in this example test:
 - have.text
 - not.be.checked
 - be.checked
 - have.css
+- not.have.descendants
 
 ```jsx
 /// <reference types= "cypress" />
