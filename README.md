@@ -19,3 +19,6 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 4
 - [Validations](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%204%20-%20Validations/Validations.md)
+
+### Chapter 5
+- [Group Tests With Mocha](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%205%20-%20Mocha/GroupingTestsWithMocha.md)
