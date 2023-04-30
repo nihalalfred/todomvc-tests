@@ -36,7 +36,7 @@ it('should be able to add a new todo to the list',()=>{
 2. Toggling a todo; and
 3. Clearing completed todos.
 
-*TODO Insert Image 1*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha1.png" height="600" width="1000" >
 
 ## New Separated Individual tests
 
@@ -94,7 +94,7 @@ Once done you can safely delete the original single test.
 
 Lets Run the newly created tests.
 
-*TODO Insert Image 2*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha2.png" height="600" width="1000" >
 
 ## Grouping Your Tests using describe()
 
@@ -192,7 +192,7 @@ describe('todo actions', ()=> {
 
 Running the updated tests will now only run the 1st test as that is marked with `it.only`
 
-*TODO Insert Image3*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha3.png" height="600" width="1000" >
 
 `it.only` says run only this test.
 
@@ -200,7 +200,7 @@ Running the updated tests will now only run the 1st test as that is marked with 
 
 If you try to run only the second test using `it.only` the test will fail!
 
-*TODO Insert Image4*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha4.png" height="600" width="1000" >
 
 The second test doesn't have the prologue of visiting the site and adding the first todo. It assumes that the first test ran. This is a problem. The tests are not dependent.
 
@@ -255,13 +255,13 @@ describe('todo actions', ()=> {
 
 Now running the test once again should make the test PASS!
 
-*TODO Insert Image5*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha5.png" height="600" width="1000" >
 
 *And now you can choose to run all your tests independently.*
 
 But wait we have an error here
 
-*TODO Insert 6*
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha6.png" height="600" width="1000" >
 
 This is because test 3 is dependant on the actions of test 2. 
 
@@ -324,6 +324,8 @@ describe('Filtering', ()=>{
 ```
 
 The above tests basically checks if the filtering only displays the correct content for Active, Completed and All.
+
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/GroupingTestsWithMocha7.png" height="600" width="1000" >
 
 Note: 
 
