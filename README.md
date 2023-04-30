@@ -22,3 +22,6 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 5
 - [Group Tests With Mocha](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%205%20-%20Mocha/GroupingTestsWithMocha.md)
+
+### Chapter 6
+- [Cypress CLI](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%206%20-%20Cypress%20CLI/CypressCLI.md)
