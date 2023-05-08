@@ -25,3 +25,6 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 6
 - [Cypress CLI](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%206%20-%20Cypress%20CLI/CypressCLI.md)
+
+### Chapter 7
+- [Page Objects In Cypress](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%207%20-%20Page%20Objects/PageObjectsInCypress.md)
