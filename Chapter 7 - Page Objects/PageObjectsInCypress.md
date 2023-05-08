@@ -27,7 +27,7 @@ todoPage.addTodo('Clean room')
 - We don’t want to create a new file under the folder `integrations` as it is not a test.
 - In this example we are just creating one such class, but in a large project you will definitely have more than one.
 
-**TODO Insert Image1**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/PageObjects1.png" height="600" width="1000" >
 
 - First we write an empty class. Syntax is similar to Java and C#
 
@@ -80,11 +80,11 @@ describe('todo actions using page objects', ()=> {
 - The rest is similar to Java: we create an object from the class using `new`.
 - If you notice, Visual studio code added the import statement for our class automatically. If your IDE doesn’t support that, you can add it manually.
 
-**TODO Insert Image2**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/PageObjects2.png" height="600" width="1000" >
 
 - Let's replace `cy.visit` with `todoPage.navigate`
 
-**TODO Insert Image3**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/PageObjects3.png" height="600" width="1000" >
 
 - Similarly lets replace the next line
 
