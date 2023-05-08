@@ -1,6 +1,6 @@
 /// <reference types= "cypress" />
 
-import { TodoPage } from "../page-objects/todo-page"
+import { TodoPage } from "../page-objects/todo-page-export-class"
 
 describe('todo actions using page objects', ()=> {
     const todoPage = new TodoPage()
