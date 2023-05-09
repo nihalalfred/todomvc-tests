@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nihalalfred/todomvc-tests#readme",
   "dependencies": {
+    "@applitools/eyes-cypress": "^3.32.2",
     "cypress": "^3.8.3"
   }
 }
