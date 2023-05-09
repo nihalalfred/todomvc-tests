@@ -16,11 +16,11 @@ Using Applitools we can use this powerful functionality.
 
 - First register at Applitools using this link: [https://applitools.com/users/register](https://applitools.com/users/register)
 
-**TODO Insert Image1**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations1.png" height="600" width="1000" >
 
 - Once you are registered it will take you to the Applitools Test Manager where you can see the results of the visual tests.
 
-**TODO Insert Image2**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations2.png" height="600" width="1000" >
 
 - Next we would need to install the Eyes SDK for Cypress. This can be done by the following command using the terminal. Eyes Cypress `[eyes-cypress]` is a Cypress plugin.
 
@@ -36,7 +36,7 @@ npm install @applitools/eyes-cypress@3
 npx eyes-setup
 ```
 
-**TODO Insert Image3**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations3.png" height="600" width="1000" >
 
 - The above step needs to be done only one after installing `eyes-cypress`
 
@@ -54,7 +54,7 @@ So, let’s write a test that:
 
 **Let’s create a new file with the below test code under the folder integration.**
 
-**TODO Insert Image4**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations4.png" height="600" width="1000" >
 
 ```jsx
 /// <reference types= "cypress" />
@@ -87,7 +87,7 @@ describe('visual validations', () => {
 - Because we’re using Applitools Eyes, we need to do one more thing: tell Applitools who we are, and in which account to show the results.
 - To do that we need an API Key, which we get from the Applitools Test Manager.
 
-**TODO Insert Image5**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations5.png" height="600" width="1000" >
 
 - While we can add it into the code of the test, this is not the recommended way, as you do not want to commit “secrets” like the Applitools API Key to your code. These things are better relegated to environment variables.
 - We can use the below command in the terminal and create an environment variable with the name `APPLITOOLS_API_KEY` and put our API key there.
@@ -159,12 +159,12 @@ describe('visual validations', () => {
 - Let’s run this test now which will open an Eyes test, closed it, and between them, took 3 screenshots and let Eyes compare them to the base screenshots.
 - You can review your test in the Eyes Test Manager.
 
-**TODO Insert Image6**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations6.png" height="600" width="1000" >
 
 - Notice that the status of the screenshots are “New”, which means that this is the first time that the test is run, and so Eyes automatically accepts those screenshots as OK.
 - If you run the tests again it should pass.
 
-**TODO Insert Image7**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations7.png" height="600" width="1000" >
 
 - Eyes compared this test’s screenshots to the baseline screenshots generated in the first test and found no difference.
 
@@ -183,18 +183,18 @@ before(() =>  cy.visit('[http://todomvc-app-for-testing.surge.sh/?different-titl
 - Let’s run the test. Notice that the title is green.
 - There we go. We have an error.
 
-**TODO Insert Image8**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations8.png" height="600" width="1000" >
 
 - If you go to Eyes Test Manager you will see that Applitools Eyes just highlighted the difference and we can see the difference between both the baseline and the check point.
 
-**TODO Insert Image9**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations9.png" height="600" width="1000" >
 
 - See that “Unresolved” status? This is Applitools Eyes telling us that it found a diff.
 - Applitools Eyes has very complex algorithms for figuring out whether the diff is a real diff and not just some noise due to differing environments where the browser is running. But those algorithms can’t tell whether the change is a bug, or whether that change is actually a feature. Is the change of title color a bug in the CSS, or is it a welcome change?
 - Eyes doesn’t know, and it defers the resolution to the user.
 - While we can mark it as a bug in all 3, we can actually have Applitools group them all the changes into one and mark all of them as failed. Let’s mark the change as a bug by clicking the *thumbs down* icon.
 
-**TODO Insert Image10**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations10.png" height="600" width="1000" >
 
 - If we had done this, then these screenshots would have become the new baselines, so that the next tests run will compare against the new, corrected screenshots.
 
@@ -213,9 +213,9 @@ browser: [
       ]
 ```
 
-**TODO Insert Image11**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations11.png" height="600" width="1000" >
 
 - The **[Applitools Visual Grid](https://applitools.com/visualgrid)** will generate those screenshots with a grid of thousands of browsers at its disposal.
 - Once you run the tests you can see in the Test results not 3 screenshots, but 12: 3 for each browser we specified.
 
-**TODO Insert Image12**
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/VisualValidations12.png" height="600" width="1000" >
