@@ -5,6 +5,8 @@
 
 My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar/) on [Introduction to Cypress](https://testautomationu.applitools.com/cypress-tutorial/)
 
+<img src="https://github.com/nihalalfred/todomvc-tests/blob/main/screenshots/certificates_TAU-e1f3f62e.png" width="500" height="400">
+
 ### Chapter 0
 - [Introduction to Cypress](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%200%20-%20Introduction%20to%20Cypress/IntroductionToCypress.md)
 
