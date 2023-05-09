@@ -28,3 +28,6 @@ My learnings from TAU course by [Gil Tayar](https://www.linkedin.com/in/giltayar
 
 ### Chapter 7
 - [Page Objects In Cypress](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%207%20-%20Page%20Objects/PageObjectsInCypress.md)
+
+### Chapter 8 [FINAL]
+- [Visual Validations](https://github.com/nihalalfred/todomvc-tests/blob/main/Chapter%208%20-%20Visual%20Validations/VisualValidations.md)
